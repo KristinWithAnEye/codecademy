@@ -13,7 +13,7 @@ const menu = {
     },
     get todaysSpecial() {
       if (this._meal && this._price) {
-        return `Today's special is ${this._meal} for ${this._price}!`;
+        return `Today's special is ${this._meal} for $${this._price}!`;
       } else {
         return "Meal or price was not set correctly!";
       }
